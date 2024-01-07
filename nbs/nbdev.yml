@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_learn"
+  site-url: "https://lidar532.github.io/nbdev_learn"
+  description: "Learn NBdev"
+  repo-branch: main
+  repo-url: "https://github.com/lidar532/nbdev_learn"
