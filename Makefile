@@ -7,7 +7,7 @@ export:
 install:
 	pip install nbdev_learn
 
-make_docs:
+docs:
 	rm -rv _docs
 	nbdev_docs
 
