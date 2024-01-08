@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://lidar532.github.io',
                 'git_url': 'https://github.com/lidar532/nbdev_learn',
                 'lib_path': 'nbdev_learn'},
-  'syms': {'nbdev_learn.core': {'nbdev_learn.core.foo': ('core.html#foo', 'nbdev_learn/core.py')}}}
+  'syms': { 'nbdev_learn.libA': { 'nbdev_learn.libA.func_a': ('liba.html#func_a', 'nbdev_learn/libA.py'),
+                                  'nbdev_learn.libA.func_b': ('liba.html#func_b', 'nbdev_learn/libA.py')},
+            'nbdev_learn.libB': { 'nbdev_learn.libB.func_c': ('libb.html#func_c', 'nbdev_learn/libB.py'),
+                                  'nbdev_learn.libB.func_d': ('libb.html#func_d', 'nbdev_learn/libB.py')}}}
