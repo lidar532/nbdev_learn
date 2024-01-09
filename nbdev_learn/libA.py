@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['func_a', 'func_b']
 
-# %% ../nbs/00_libA.ipynb 5
+# %% ../nbs/00_libA.ipynb 6
 def func_a(a='A', # A variable
            b='B'  # Another variable
           ) -> str: # Just returns a string that identifies the function.
@@ -12,7 +12,7 @@ def func_a(a='A', # A variable
     '''
     return f"This returned from func_a( {a=}, {b=})"
 
-# %% ../nbs/00_libA.ipynb 15
+# %% ../nbs/00_libA.ipynb 16
 def func_b(
         c='C',     # A variable named `c`
         d='D'      # Another variable, this one named `d`
